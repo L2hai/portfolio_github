@@ -1,0 +1,111 @@
+/*navigation menu*/
+body{
+  background-repeat: no-repeat;
+  text-align: right;
+  color: #e4b074;
+  font-family: Georgia;
+}
+
+ul{
+ list-style-type:none;
+ margin: 0;
+ padding:0;
+ overflow: hidden;
+ background-color: #fcefb4;
+ margin-left: auto;
+ width:100%;}
+li{
+  float: right;
+}
+/*text*/
+li a{
+  display: block;
+  color:#e4b074;
+  text-align: center;
+  padding:10px 14px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:#fae588;
+  color: #d08c60;
+}
+
+.logo{
+  text-align: left;
+  color: #e4b074;
+  font-size: 20px;
+  font-family: Georgia;
+  position: absolute;
+  left:5px;
+  top:323px;
+}
+.navright{
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Georgia;
+  text-align: center;
+  padding:10px 14px;
+  color: #e4b074;
+  position: absolute;
+  left:5px;
+  }
+.galpos{
+  position: absolute;
+  left:492px;
+  top:50px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #fae588;
+  float: left;
+  width: 180px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery:hover {
+  border: 1px solid #e4b074;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+h4, h1{
+  padding: inherit;
+  margin: 25px 0px 0px 850px
+  }
+.font{
+  font-size: 20px;
+}
+.darkenText{
+  color:#c08552;
+}
+p{
+  margin: 25px 0px 0px 710px
+}
+.imgDist{
+  margin:30px 0px 0px 0px;
+}
+.welcome{
+  border-bottom: 1px solid;
+}
+.welcomeDown{
+  text-indent: px;
+
+}
+.shadowBox{
+  border: 1px solid #fcefb4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin:0px 7px 0px 0px
+}
+.indexAli{
+text-align: center;
+width: 300px;
+height: 300px;
+}
